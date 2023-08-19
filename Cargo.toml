@@ -1,5 +1,5 @@
 [package]
-name = "rust-phrase"
+name = "rustphrase"
 version = "0.1.0"
 edition = "2021"
 

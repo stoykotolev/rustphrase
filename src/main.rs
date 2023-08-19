@@ -42,8 +42,6 @@ fn main() {
         exclude_similar_characters: args.exclude_similar_characters,
     };
 
-    println!("Args: {:?}", args);
-
     println!(
         "Password: {}",
         pg.generate_one().expect("A password to be generated.")
